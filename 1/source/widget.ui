@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="ColorRect">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="2" column="0">
+          <widget class="QLabel" name="LLabel_1">
+           <property name="text">
+            <string>R:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="LLabel_3">
+           <property name="text">
+            <string>B:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSpinBox" name="Left_3"/>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QComboBox" name="LeftCB"/>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSpinBox" name="Left_1"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QSpinBox" name="Left_2"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="LLabel_2">
+           <property name="text">
+            <string>G:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QSpinBox" name="Left_4"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="LLabel_4">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="5" column="1">
+          <widget class="QSpinBox" name="Mid_4"/>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QComboBox" name="CentralCB"/>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSpinBox" name="Mid_1"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="MLabel_4">
+           <property name="text">
+            <string>K:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="MLabel_1">
+           <property name="text">
+            <string>C:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QSpinBox" name="Mid_2"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="MLabel_3">
+           <property name="text">
+            <string>Y:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="MLabel_2">
+           <property name="text">
+            <string>M:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSpinBox" name="Mid_3"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="2" column="1">
+          <widget class="QSpinBox" name="Right_1"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="RLabel_3">
+           <property name="text">
+            <string>V:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QComboBox" name="RightCB"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QSpinBox" name="Right_2"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="RLabel_2">
+           <property name="text">
+            <string>S:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSpinBox" name="Right_3"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="RLabel_1">
+           <property name="text">
+            <string>H:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="RLabel_4">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QSpinBox" name="Right_4"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QLabel" name="SliderLabel_1">
+         <property name="text">
+          <string>R:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="SliderLabel_2">
+         <property name="text">
+          <string>G:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="SliderLabel_4">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="SliderLabel_3">
+         <property name="text">
+          <string>B:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSlider" name="Slider_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QSlider" name="Slider_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSlider" name="Slider_1">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSlider" name="Slider_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="2">
+        <widget class="QPushButton" name="colorButton">
+         <property name="text">
+          <string>Choose color</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
